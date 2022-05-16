@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+
+.logoBorder {
+    width:700px ;
+    height: 420px;
+    background:whitesmoke;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    outline: auto #d2cbdd;
+    padding: 70px 30px;
+    border-radius: 20px;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+}
+
+.logoBorder h1{
+    position: absolute;
+    left: 19%;
+    bottom: 85%;
+    color: #094668;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+   
+}
+
+
+
+.logoBorder input[type= "text"], input[type= "password"]{
+   position: absolute;
+    left: 27%;
+    top: 45%;
+   
+    border: none;
+    border-bottom: 1px solid #fff;
+  
+    outline: auto #094668;
+    width: 50%;
+    height: 60px ;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    border-radius: 30%;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+    text-align: center
+}
+
+.logoBorder p{
+
+    position: absolute;
+    left: 38%;
+    top: 35%;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.logoBorder input[type= "submit"]{
+    position: absolute;
+    left: 28%;
+    top: 65%;
+    width: 20%;
+    height: 50px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #094668;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.logoBorder input[type= "submit"]:hover{
+    cursor: pointer;
+    background: #0e6492;
+    color: #000;
+}
+
+.or{
+    position: absolute;
+    left: 52%;
+    top: 65%;
+}
+
+.qc input[type= "button"]{
+    position: absolute;
+    left: 58%;
+    top: 65%;
+    width: 20%;
+    height: 50px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #0b6e02;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.qc input[type= "button"]:hover{
+    cursor: pointer;
+    background: #0f9b03;
+    color: #000;
+}
+
+.cube{
+    position: absolute;
+    left: 46%;
+    top:18%;
+    height: 15%;
+}
+
+
+
+
+/*-------------------------------------------*/
+

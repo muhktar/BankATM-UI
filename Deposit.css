@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+
+.logoBorder {
+    width:700px ;
+    height: 420px;
+    background:whitesmoke;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    outline: auto #d2cbdd;
+    padding: 70px 30px;
+    border-radius: 20px;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+}
+
+.logoBorder h1{
+    position: absolute;
+    left: 10%;
+    bottom: 85%;
+    color: #094668;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+   
+}
+
+.cube{
+    position: absolute;
+    left: 46%;
+    top:18%;
+    height: 15%;
+}
+
+.getCash input[type= "button"]{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 20%;
+    height: 80px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #094668;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.getCash input[type= "button"]:hover{
+    cursor: pointer;
+    background: #0e6492;
+    color: #000;
+}
+.qc input[type= "button"]{
+    position: absolute;
+    left: 63%;
+    top: 60%;
+    width: 20%;
+    height: 80px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #0b6e02;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.qc input[type= "button"]:hover{
+    cursor: pointer;
+    background: #0f9b03;
+    color: #000;
+}
+
+.deposit input[type= "button"]{
+    position: absolute;
+    left: 18%;
+    top: 60%;
+    width: 20%;
+    height: 80px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #094668;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.deposit input[type= "button"]:hover{
+    cursor: pointer;
+    background: #0e6492;
+    color: #000;
+}
+
+.more input[type= "button"]{
+    position: absolute;
+    left: 40%;;
+    top: 60%;
+    width: 20%;
+    height: 80px ;
+    border: none;
+    outline: none;
+    box-shadow:0 0 5px 3px rgb(180, 176, 176);
+
+    background: #424749;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: lighter;
+
+}
+
+.more input[type= "button"]:hover{
+    cursor: pointer;
+    background: #6e7577;
+    color: #000;
+}
